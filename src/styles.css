@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap");
+
+body {
+  background-color: #efefef;
+}
+
+.App {
+  font-family: "Bricolage Grotesque", sans-serif;
+  text-align: left;
+  margin: 5rem auto auto auto;
+  display: block;
+  max-width: 100%;
+  width: 50%;
+}
+button {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+li {
+  list-style: none;
+  padding: 0.7rem;
+  margin: 1rem 0;
+  border: 1px solid lightgrey;
+  width: 80%;
+  border-radius: 5px;
+  font-size: large;
+}
+p.rating {
+  margin: 4px 0 0 0;
+  font-size: smaller;
+  font-weight: 100;
+  color: #69b114;
+}
